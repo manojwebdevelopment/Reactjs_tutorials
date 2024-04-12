@@ -6,7 +6,7 @@ export default function Github() {
 
   const [data, setData] = useState([]);
   useEffect(() => {
-    fetch("https://api.github.com/users/hiteshchoudhary")
+    fetch("https://api.github.com/users/manojwebdevelopment")
       .then((res) => res.json())
       .then((data) => {
         console.log(data);
